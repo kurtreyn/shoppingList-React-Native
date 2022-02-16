@@ -1348,6 +1348,11 @@
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-2.0.1.tgz#20f18294f797f2209b5f65c8e3b5c8e8261d127c"
   integrity sha512-Hl219/BT5fLAaz6NDkSuhzasy49dwQS/DSdu4MdggFB8zcXv7vflBI3xp7FEmkmdDkBUI2bPUNeMttp2knYdxw==
 
+"@types/uuid@8.3.1":
+  version "8.3.1"
+  resolved "https://registry.yarnpkg.com/@types/uuid/-/uuid-8.3.1.tgz#1a32969cf8f0364b3d8c8af9cc3555b7805df14f"
+  integrity sha512-Y2mHTRAbqfFkpjldbkHGY8JIzRN6XqYRliG8/24FcHm2D2PwW24fl5xMRTVGdrb7iMrwCaIEbLWerGIkXuFWVg==
+
 "@types/yargs-parser@*":
   version "20.2.1"
   resolved "https://registry.yarnpkg.com/@types/yargs-parser/-/yargs-parser-20.2.1.tgz#3b9ce2489919d9e4fea439b76916abc34b2df129"
@@ -5478,6 +5483,14 @@ react-native-codegen@^0.0.8:
     jscodeshift "^0.11.0"
     nullthrows "^1.1.1"
 
+react-native-vector-icons@^9.1.0:
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/react-native-vector-icons/-/react-native-vector-icons-9.1.0.tgz#52eaa205f5954d567b7048eb93d58ac854a2c59e"
+  integrity sha512-2AHZ/h9d/+rC0odz+OwbGNlc1Lik/pHhSixn4HfC8RtQ8CxfSBZ6gg7bTLcZhdSvZN+ZEGi30Fj+ZnOSQy+smg==
+  dependencies:
+    prop-types "^15.7.2"
+    yargs "^16.1.1"
+
 react-native@0.67.2:
   version "0.67.2"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.67.2.tgz#312224bc2271c3cecd374d4bc425619cff4ea5dc"
@@ -6527,10 +6540,23 @@ utils-merge@1.0.1:
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
 
+uuid@8.3.2:
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
+
 uuid@^3.3.2:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
+
+uuidv4@^6.2.12:
+  version "6.2.12"
+  resolved "https://registry.yarnpkg.com/uuidv4/-/uuidv4-6.2.12.tgz#e8c1d1d733c3fa4963d4610b8a3a09b4ec58ca96"
+  integrity sha512-UnN4ThIYWhv3ZUE8UwDnnCvh4JafCNu+sQkxmLyjCVwK3rjLfkg3DYiEv6oCMDIAIVEDP4INg4kX/C5hKaRzZA==
+  dependencies:
+    "@types/uuid" "8.3.1"
+    uuid "8.3.2"
 
 v8-compile-cache@^2.0.3:
   version "2.3.0"
@@ -6810,7 +6836,7 @@ yargs@^15.1.0, yargs@^15.3.1:
     y18n "^4.0.0"
     yargs-parser "^18.1.2"
 
-yargs@^16.2.0:
+yargs@^16.1.1, yargs@^16.2.0:
   version "16.2.0"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-16.2.0.tgz#1c82bf0f6b6a66eafce7ef30e376f49a12477f66"
   integrity sha512-D1mvvtDG0L5ft/jGWkLpG1+m0eQxOfaBvTNELraWj22wSVUMWxZUvYgJYcKh6jGGIkJFhH4IZPQhR4TKpc8mBw==
